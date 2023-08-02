@@ -1,1 +1,91 @@
-{"sections":{"slideshow":{"type":"slideshow","blocks":{"slide-0":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/macbook-air-on-desk.jpg","heading":"Browse our latest products","heading_size":"h1","subheading":"","button_label":"Shop all","link":"shopify:\/\/collections\/all","button_style_secondary":true,"box_align":"middle-left","show_text_box":true,"text_alignment":"left","image_overlay_opacity":0,"color_scheme":"background-1","text_alignment_mobile":"center"}},"a0969e6f-db50-4422-8102-116da40cb8be":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/download_3.png","heading":"Image slide","heading_size":"h1","subheading":"Tell your brand's story through images","button_label":"Button label","link":"","button_style_secondary":false,"box_align":"middle-center","show_text_box":true,"text_alignment":"center","image_overlay_opacity":0,"color_scheme":"background-1","text_alignment_mobile":"center"}}},"block_order":["slide-0","a0969e6f-db50-4422-8102-116da40cb8be"],"settings":{"layout":"grid","slide_height":"medium","slider_visual":"dots","auto_rotate":true,"change_slides_speed":5,"image_behavior":"ambient","show_text_below":true,"accessibility_info":"Slideshow about our brand"}},"featured_collection":{"type":"featured-collection","settings":{"title":"Featured products","heading_size":"h2","description":"","show_description":false,"description_style":"body","collection":"all","products_to_show":8,"columns_desktop":4,"full_width":false,"show_view_all":false,"view_all_style":"solid","enable_desktop_slider":false,"color_scheme":"background-1","image_ratio":"square","image_shape":"default","show_secondary_image":false,"show_vendor":false,"show_rating":false,"enable_quick_add":true,"columns_mobile":"2","swipe_on_mobile":true,"padding_top":16,"padding_bottom":64}}},"order":["slideshow","featured_collection"]}
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/macbook-air-on-desk.jpg",
+            "heading": "Browse our latest products",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Shop all",
+            "link": "shopify:\/\/collections\/all",
+            "button_style_secondary": true,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "a0969e6f-db50-4422-8102-116da40cb8be": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Depositphotos_4838845_XL_a1a8db32-19c4-4af6-a1ca-8ab253b0aae0.webp",
+            "heading": "Discover the Best Printable Mental Health Worksheets and Handouts for Kids & Teens",
+            "heading_size": "h2",
+            "subheading": "A child's mental health is just as important as their physical health.",
+            "button_label": "Shop Our Collections",
+            "link": "shopify:\/\/collections",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "inverse",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide-0",
+        "a0969e6f-db50-4422-8102-116da40cb8be"
+      ],
+      "settings": {
+        "layout": "grid",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "image_behavior": "ambient",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 16,
+        "padding_bottom": 64
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "featured_collection"
+  ]
+}
