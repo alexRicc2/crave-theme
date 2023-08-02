@@ -15,6 +15,7 @@ slideshow-component .slideshow.banner {
   flex-wrap: nowrap;
   margin: 0;
   gap: 0;
+  border-radius: 25px;
 }
 
 .slideshow__slide {
