@@ -99,15 +99,21 @@ html.no-js .no-js-hidden {
   padding: 0 1.5rem;
 }
 
-.announcement-bar-section{
-  position: relative;
+.announce-container{
+  display: flex;
+  padding: 0 30px;
+  align-items: center;
 }
-.announcement-bar__number-count{
-  position: absolute;
-  right: 10px;
-  top: 10px;
+@media (max-width: 767px){
+  .announce-container{
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+  }
+  .announcement-bar__number-count:first-of-type{
+    display: none;
+  }
 }
-
 body:has(.section-header .drawer-menu) .announcement-bar-section slideshow-component {
   max-width: 100%;
 }

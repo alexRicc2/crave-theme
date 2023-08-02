@@ -1,9 +1,9 @@
 {{ 'component-slideshow.css' | asset_url | stylesheet_tag }}
 {{ 'component-slider.css' | asset_url | stylesheet_tag }}
 
-<div class="utility-bar color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} utility-bar--bottom-border{% endif %}" {{ block.shopify_attributes }} style="display: flex; align-items: center">
+<div class="utility-bar color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} utility-bar--bottom-border{% endif %} announce-container" {{ block.shopify_attributes }}>
   {% assign totalNumberOfSales = pages['contact'].metafields.custom.total_number_of_sales %}
-  <div class="announcement-bar__number-count">
+  <div class="announcement-bar__number-count" style="opacity: 0;">
     <span>total number of sales: {{ totalNumberOfSales }}</span>
   </div>
 
@@ -95,7 +95,7 @@
       </div>
     </slideshow-component>
   {%- endif -%}
-  <div class="announcement-bar__number-count" style="opacity: 0;">
+  <div class="announcement-bar__number-count">
     <span>total number of sales: {{ totalNumberOfSales }}</span>
   </div>
 </div>
