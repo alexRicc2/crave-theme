@@ -21,6 +21,9 @@
       "settings": {
       }
     },
+    "abover-header": {
+      
+    },
     "header": {
       "type": "header",
       "settings": {
@@ -41,6 +44,7 @@
   },
   "order": [
     "announcement-bar",
+    "above-header",
     "header"
   ]
 }
