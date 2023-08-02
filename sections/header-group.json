@@ -9,8 +9,6 @@
           "type": "announcement",
           "settings": {
             "text": "Welcome to our store",
-            "text_alignment": "center",
-            "color_scheme": "accent-1",
             "link": ""
           }
         }
@@ -19,6 +17,10 @@
         "announcement-bar-0"
       ],
       "settings": {
+        "color_scheme": "",
+        "show_line_separator": true,
+        "auto_rotate": false,
+        "change_slides_speed": 5
       }
     },
     "abover-header": {
@@ -29,7 +31,7 @@
       "settings": {
         "logo_position": "middle-left",
         "menu": "main-menu",
-        "menu_type_desktop": "dropdown",
+        "menu_type_desktop": "mega",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": false,
         "color_scheme": "background-1",
