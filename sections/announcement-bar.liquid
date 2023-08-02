@@ -5,6 +5,11 @@
   class="utility-bar color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} utility-bar--bottom-border{% endif %}"
   {{ block.shopify_attributes }}
 >
+{%  assign totalNumberOfSales = pages['contact'].metafields.custom.total_number_of_sales %}
+        <div class="announcement-bar__number-count">
+        <span>total number of sales: {{ totalNumberOfSales }}</span>
+        </div>
+      </div>
   {%- if section.blocks.size == 1 -%}
     <div class="announcement-bar" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
       {%- if section.blocks.first.settings.text != blank -%}

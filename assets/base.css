@@ -99,6 +99,15 @@ html.no-js .no-js-hidden {
   padding: 0 1.5rem;
 }
 
+.announcement-bar-section{
+  position: relative;
+}
+.announcement-bar__number-count{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
 body:has(.section-header .drawer-menu) .announcement-bar-section slideshow-component {
   max-width: 100%;
 }
