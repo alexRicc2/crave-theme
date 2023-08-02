@@ -23,8 +23,10 @@
         "change_slides_speed": 5
       }
     },
-    "abover-header": {
-      
+    "above-header": {
+      "type": "above-header",
+      "settings": {
+      }
     },
     "header": {
       "type": "header",
