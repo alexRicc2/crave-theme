@@ -38,12 +38,15 @@ slider-component.slider-component-full-width {
   padding-bottom: 0;
 }
 .slideshow-container{
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   background: rgb(255,160,0);
-  background: linear-gradient(180deg, rgba(255,160,0,1) 0%, rgba(255,160,0,0.8128501400560224) 90%);
+  background:  linear-gradient(180deg, rgba(255,160,0,1) 0%, rgba(255,160,0,0.6111694677871149) 70%);
 }
 @media screen and (max-width: 749px) {
+  .slideshow-container{
+    background: #fff;
+  }
   .slider.slider--mobile {
     position: relative;
     flex-wrap: inherit;
