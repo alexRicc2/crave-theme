@@ -9,26 +9,16 @@
           "type": "announcement",
           "settings": {
             "text": "Welcome to our store",
-            "link": ""
-          }
-        },
-        "038305f2-b4f1-49c3-8134-066e6d114351": {
-          "type": "announcement",
-          "settings": {
-            "text": "Welcome to our store",
+            "text_alignment": "center",
+            "color_scheme": "accent-1",
             "link": ""
           }
         }
       },
       "block_order": [
-        "announcement-bar-0",
-        "038305f2-b4f1-49c3-8134-066e6d114351"
+        "announcement-bar-0"
       ],
       "settings": {
-        "color_scheme": "accent-2",
-        "show_line_separator": true,
-        "auto_rotate": false,
-        "change_slides_speed": 5
       }
     },
     "header": {
