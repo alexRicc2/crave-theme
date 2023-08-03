@@ -71,6 +71,10 @@
   --shadow-visible: var(--media-shadow-visible);
 }
 
+*{
+  outline: 1px solid red;
+}
+
 /* base */
 
 .no-js:not(html) {
