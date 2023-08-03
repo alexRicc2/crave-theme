@@ -2273,9 +2273,17 @@ product-info .loading-overlay:not(.hidden) ~ *,
 
 .header {
   display: grid;
-  grid-template-areas: 'left-icons heading icons';
+  grid-template-areas: 'search navigation icons';
   grid-template-columns: 1fr 2fr 1fr;
   align-items: center;
+}
+.header-search-left{
+  grid-area: search;
+}
+@media (min-width: 990px){
+  .search-desktop{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 749px) {

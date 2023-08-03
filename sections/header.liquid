@@ -173,7 +173,9 @@
     -%}
     
   {% comment %} left side where it was the logo {% endcomment %}
-  {% render 'header-search', input_id: 'Search-In-Modal' %}
+  <div class="header-search-left">
+    {% render 'header-search', input_id: 'Search-In-Modal' %}
+  </div>
 
     
 
@@ -277,7 +279,9 @@
           </localization-form>
         {%- endif -%}
       </div>
-      {% render 'header-search', input_id: 'Search-In-Modal' %}
+      <div class="search-desktop">
+        {% render 'header-search', input_id: 'Search-In-Modal' %}
+      </div>
 
       {%- if shop.customer_accounts_enabled -%}
         <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
@@ -485,31 +489,7 @@
   "class": "section-header",
   "max_blocks": 3,
   "settings": [
-    {
-      "type": "select",
-      "id": "logo_position",
-      "options": [
-        {
-          "value": "top-left",
-          "label": "t:sections.header.settings.logo_position.options__2.label"
-        },
-        {
-          "value": "top-center",
-          "label": "t:sections.header.settings.logo_position.options__3.label"
-        },
-        {
-          "value": "middle-left",
-          "label": "t:sections.header.settings.logo_position.options__1.label"
-        },
-        {
-          "value": "middle-center",
-          "label": "t:sections.header.settings.logo_position.options__4.label"
-        }
-      ],
-      "default": "middle-left",
-      "label": "t:sections.header.settings.logo_position.label",
-      "info": "t:sections.header.settings.logo_help.content"
-    },
+    
     {
       "type": "link_list",
       "id": "menu",
