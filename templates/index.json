@@ -162,6 +162,23 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "3794e682-bb24-46dd-8f14-49be507d7769": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Blog posts",
+        "heading_size": "h1",
+        "blog": "",
+        "post_limit": 2,
+        "columns_desktop": 1,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -170,6 +187,7 @@
     "32522d1c-b282-4caf-a0e4-a3a567ed999f",
     "abf6838d-81fe-4705-97db-240406b347bb",
     "4c64f3d0-190c-40a1-903c-8099f9aad8e1",
-    "169108606493ad4029"
+    "169108606493ad4029",
+    "3794e682-bb24-46dd-8f14-49be507d7769"
   ]
 }
