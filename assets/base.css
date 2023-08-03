@@ -2265,7 +2265,9 @@ product-info .loading-overlay:not(.hidden) ~ *,
 .header-wrapper {
   display: block;
   position: relative;
-  /* background-color: rgb(var(--color-background)); */
+  background-color: rgb(var(--color-background));
+}
+.header-bg{
   background-color: #f4f6f8;
 }
 
