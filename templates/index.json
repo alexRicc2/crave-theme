@@ -66,6 +66,25 @@
     },
     "32522d1c-b282-4caf-a0e4-a3a567ed999f": {
       "type": "marquee",
+      "blocks": {
+        "3524ac7c-5774-43a3-921b-ad3478689fd7": {
+          "type": "text",
+          "settings": {
+            "text": "Last chance to buy!"
+          }
+        },
+        "80dda4a6-366b-40a0-aa68-ea92ad202c42": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop collection",
+            "button_link": "shopify:\/\/collections\/camisas"
+          }
+        }
+      },
+      "block_order": [
+        "3524ac7c-5774-43a3-921b-ad3478689fd7",
+        "80dda4a6-366b-40a0-aa68-ea92ad202c42"
+      ],
       "settings": {
       }
     }
