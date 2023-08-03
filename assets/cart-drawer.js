@@ -21,6 +21,19 @@ class CartDrawer extends HTMLElement {
         this.open(cartLink);
       }
     });
+    const cartLink2 = document.querySelector('#cart-icon-bubble2');
+    cartLink2.setAttribute('role', 'button');
+    cartLink2.setAttribute('aria-haspopup', 'dialog');
+    cartLink2.addEventListener('click', (event) => {
+      event.preventDefault();
+      this.open(cartLink2);
+    });
+    cartLink2.addEventListener('keydown', (event) => {
+      if (event.code.toUpperCase() === 'SPACE') {
+        event.preventDefault();
+        this.open(cartLink2);
+      }
+    });
   }
 
   open(triggeredBy) {
@@ -98,6 +111,9 @@ class CartDrawer extends HTMLElement {
       {
         id: 'cart-icon-bubble',
       },
+      {
+        id: 'cart-icon-bubble2',
+      },
     ];
   }
 
@@ -122,6 +138,11 @@ class CartDrawerItems extends CartItems {
       },
       {
         id: 'cart-icon-bubble',
+        section: 'cart-icon-bubble',
+        selector: '.shopify-section',
+      },
+      {
+        id: 'cart-icon-bubble2',
         section: 'cart-icon-bubble',
         selector: '.shopify-section',
       },
