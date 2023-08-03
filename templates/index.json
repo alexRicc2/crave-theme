@@ -63,10 +63,16 @@
         "padding_top": 16,
         "padding_bottom": 64
       }
+    },
+    "32522d1c-b282-4caf-a0e4-a3a567ed999f": {
+      "type": "marquee",
+      "settings": {
+      }
     }
   },
   "order": [
     "slideshow",
-    "featured_collection"
+    "featured_collection",
+    "32522d1c-b282-4caf-a0e4-a3a567ed999f"
   ]
 }
