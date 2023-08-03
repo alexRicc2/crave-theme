@@ -2265,7 +2265,8 @@ product-info .loading-overlay:not(.hidden) ~ *,
 .header-wrapper {
   display: block;
   position: relative;
-  background-color: rgb(var(--color-background));
+  /* background-color: rgb(var(--color-background)); */
+  background-color: #f4f6f8;
 }
 
 .header-wrapper--border-bottom {
@@ -2277,7 +2278,6 @@ product-info .loading-overlay:not(.hidden) ~ *,
   grid-template-areas: 'search navigation icons';
   grid-template-columns: 1fr 2fr 1fr;
   align-items: center;
-  background-color: #f4f6f8;
 }
 .header-search-left{
   grid-area: search;
