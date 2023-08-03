@@ -3360,3 +3360,14 @@ details-disclosure > details {
     --sparkle: url('./sparkle.gif');
   }
 }
+
+.jdgm-carousel-wrapper{
+  width: 100% !important;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  .jdgm-carousel-wrapper {
+      width:100% !important;
+  }
+}
