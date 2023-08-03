@@ -39,16 +39,16 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "Featured Worksheets",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "all",
+        "collection": "featured-worksheets",
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
-        "show_view_all": false,
+        "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
@@ -56,10 +56,10 @@
         "image_shape": "default",
         "show_secondary_image": false,
         "show_vendor": false,
-        "show_rating": false,
+        "show_rating": true,
         "enable_quick_add": true,
         "columns_mobile": "2",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 16,
         "padding_bottom": 64
       }
@@ -145,6 +145,23 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "169108606493ad4029": {
+      "type": "apps",
+      "blocks": {
+        "0a4fedec-3672-498f-89a1-fc548ac7a273": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "0a4fedec-3672-498f-89a1-fc548ac7a273"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -152,6 +169,7 @@
     "featured_collection",
     "32522d1c-b282-4caf-a0e4-a3a567ed999f",
     "abf6838d-81fe-4705-97db-240406b347bb",
-    "4c64f3d0-190c-40a1-903c-8099f9aad8e1"
+    "4c64f3d0-190c-40a1-903c-8099f9aad8e1",
+    "169108606493ad4029"
   ]
 }
