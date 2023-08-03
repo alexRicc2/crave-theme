@@ -3,7 +3,7 @@
     display: flex;
     overflow: hidden;
     user-select: none;
-    gap: 6rem;
+    gap: 3rem;
     padding: 5px 0;
     margin: 3rem 0;
   }
@@ -15,7 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 6rem;
+    gap: 3rem;
     min-width: 100%;
     animation: scroll 15s linear infinite;
   }
@@ -30,7 +30,7 @@
       transform: translateX(0);
     }
     100%{
-      transform: translateX(calc(-100% - 6rem));
+      transform: translateX(calc(-100% - 3rem));
     }
   }
   .button-marquee{
@@ -71,7 +71,7 @@
       {% endcase %}
     {% endfor %}
     
-    {% if section.blocks.size < 4 %}
+  
       {% for block in section.blocks %}
         {% case block.type %}
           {% when 'text' %}
@@ -82,8 +82,8 @@
             </a> 
         {% endcase %}
       {% endfor %}
-    {% endif %}  
-    {% if section.blocks.size < 4 %}
+ 
+
       {% for block in section.blocks %}
         {% case block.type %}
           {% when 'text' %}
@@ -94,7 +94,7 @@
             </a> 
         {% endcase %}
       {% endfor %}
-    {% endif %} 
+
   </div>
   
   <div class="marquee__group" aria-hidden="true">
@@ -109,7 +109,7 @@
       {% endcase %}
     {% endfor %}
     
-    {% if section.blocks.size < 4 %}
+
       {% for block in section.blocks %}
         {% case block.type %}
           {% when 'text' %}
@@ -120,7 +120,19 @@
             </a> 
         {% endcase %}
       {% endfor %}
-    {% endif %}  
+
+
+    {% for block in section.blocks %}
+      {% case block.type %}
+        {% when 'text' %}
+          <span>{{ block.settings.text }}</span>
+        {% when 'button' %}
+          <a class="button-marquee" {% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} >
+            {{ block.settings.button_label | escape }}
+          </a> 
+      {% endcase %}
+    {% endfor %}
+
   </div>
 </div>
 
