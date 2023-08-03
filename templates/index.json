@@ -168,9 +168,9 @@
       "settings": {
         "heading": "Blog posts",
         "heading_size": "h1",
-        "blog": "",
+        "blog": "articles",
         "post_limit": 2,
-        "columns_desktop": 1,
+        "columns_desktop": 2,
         "color_scheme": "",
         "show_image": true,
         "show_date": true,
