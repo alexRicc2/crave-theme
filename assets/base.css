@@ -104,6 +104,8 @@ html.no-js .no-js-hidden {
 }
 .announcement-bar__number-count{
   white-space: nowrap;
+  color: #fff;
+  text-transform: capitalize;
 }
 .announce-container{
   display: flex;
@@ -113,7 +115,6 @@ html.no-js .no-js-hidden {
 @media (max-width: 767px){
   .announce-container{
     flex-direction: column;
-    gap: 20px;
     justify-content: center;
   }
   .announcement-bar__number-count:first-of-type{
