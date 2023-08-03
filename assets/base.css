@@ -2279,10 +2279,19 @@ product-info .loading-overlay:not(.hidden) ~ *,
 }
 .header-search-left{
   grid-area: search;
+  display: none;
 }
+
+
 @media (min-width: 990px){
-  .search-desktop{
+  .search-mobile, .pinned-bag{
     display: none;
+  }
+  .is-pinned .header-search-left{
+    display: block;
+  }
+  .is-pinned .pinned-bag{
+    display: block;
   }
 }
 
