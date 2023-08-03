@@ -94,7 +94,7 @@
         "heading": "",
         "heading_size": "h1",
         "enable_video_looping": true,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_url": "",
         "description": "",
         "full_width": false,
         "color_scheme": "",
@@ -152,7 +152,7 @@
         "0a4fedec-3672-498f-89a1-fc548ac7a273": {
           "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
-            "maxwidth": 1080
+            "maxwidth": 1200
           }
         }
       },
