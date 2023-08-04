@@ -95,8 +95,8 @@
       </div>
     </slideshow-component>
   {%- endif -%}
-  <div class="announcement-bar__number-count">
-    <span>total number of sales: {{ totalNumberOfSales }} </span>
+<div class="announcement-bar__number-count" style="opacity: {% if section.settings.show_units_sold %} 1 {% else %} 0 {% endif %};">
+    <span>Units sold: {{ totalNumberOfSales }} </span>
   </div>
 </div>
 
@@ -106,6 +106,12 @@
     "max_blocks": 12,
     "class": "announcement-bar-section",
     "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_units_sold",
+        "label": "show total of units sold",
+        "default": true
+      }
       {
         "type": "color_scheme",
         "id": "color_scheme",
