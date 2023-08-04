@@ -125,9 +125,7 @@
         {%- if request.page_type == 'index' -%}
         </h1>
       {%- endif -%}
-      <div>
-        {{cart.item_count}}
-      </div>
+      
       <a href="{{ routes.cart_url }}" class="header__icon bag header__icon--cart link focus-inset" id="cart-icon-bubble2">
         {%- liquid
         if cart == empty
