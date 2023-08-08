@@ -3,8 +3,8 @@
 
 <div class="utility-bar color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} utility-bar--bottom-border{% endif %} announce-container" {{ block.shopify_attributes }}>
   {% assign totalNumberOfSales = pages['contact'].metafields.custom.total_number_of_sales %}
-  <div class="announcement-bar__number-count" style="opacity: 0;">
-    <span>total number of sales: {{ totalNumberOfSales }}</span>
+  <div style="opacity: 0">
+    {% render 'units-sold-counter' %}
   </div>
 
   {%- if section.blocks.size == 1 -%}
@@ -95,8 +95,8 @@
       </div>
     </slideshow-component>
   {%- endif -%}
-<div class="announcement-bar__number-count" style="opacity: {% if section.settings.show_units_sold %} 1 {% else %} 0 {% endif %};">
-    <span>Units sold: {{ totalNumberOfSales }} </span>
+  <div>
+    {%  render 'units-sold-counter' %}
   </div>
 </div>
 
