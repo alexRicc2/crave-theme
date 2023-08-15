@@ -53,6 +53,11 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "27f74af7-eb75-44fa-8414-b711498f61cb": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -64,7 +69,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "5f0abf1c-ee2a-48b6-a270-78ecc0d3067a"
+        "5f0abf1c-ee2a-48b6-a270-78ecc0d3067a",
+        "27f74af7-eb75-44fa-8414-b711498f61cb"
       ],
       "settings": {
         "enable_sticky_info": true,
